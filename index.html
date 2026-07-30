@@ -11,6 +11,8 @@
     <meta property="og:url" content="https://legacy.lanzoor.dev" />
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#555555" />
+
+    <link href="./styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -42,19 +44,21 @@
             <li>
                 <a href="./profile-old/">Old Profile</a><br>
                 A repository for Lanzoor's old profile.<br>
-                To be deleted: <code>never</code>
             </li>
             <li>
                 <a href="./anti-JPA/">Anti-JPA Project</a><br>
                 An exposal pointing out the issues within the Japanese Academy server in detail.<br>
-                To be deleted: <code>late August, 2026</code>
+            </li>
+            <li>
+                <a href="./lanzoors-documents/">Lanzoor's Documents</a><br>
+                A section dedicated to all of Lanzoor's documents,
+                including conlangs, announcements, articles, and more.
             </li>
             <li>
                 <a href="https://github.com/Lanzoor/periodica" target="_blank" rel="noopener noreferrer">
                     periodica
                 </a><br>
-                CLI tool made in Python, for displaying element and isotope information.<br>
-                To be deleted: <code>never</code>
+                CLI tool made in Python, for displaying element and isotope information.
             </li>
         </ul>
 
@@ -103,59 +107,3 @@
 </body>
 
 </html>
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: "Noto Sans";
-        font-size: 20px;
-        background: #111;
-        color: #ccc;
-    }
-
-    a {
-        text-decoration: none;
-        color: #aaa;
-    }
-
-    a:hover {
-        text-decoration: underline;
-        color: #777
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        justify-content: flex-start;
-
-        gap: 1.5em;
-        padding: 2em;
-        min-height: 100vh;
-    }
-
-    code {
-        font-size: 0.9em;
-        font-family: "JetBrains Mono";
-    }
-
-    ::selection {
-        background: white;
-        color: black;
-    }
-
-    footer {
-        width: 100%;
-        padding: 2em;
-        background: #222;
-        border-top: 2px solid #444;
-    }
-</style>

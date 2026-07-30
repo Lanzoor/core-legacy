@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    background: #111;
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #777;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    gap: 1.5em;
+    padding: 2em;
+    min-height: 100vh;
+}
+
+code {
+    font-size: 0.9em;
+    font-family: 'JetBrains Mono';
+}
+
+::selection {
+    background: white;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    padding: 2em;
+    background: #222;
+    border-top: 2px solid #444;
+}
+
+ul {
+    margin: 0.5em 2em;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding-bottom: 0.5em;
+}
