@@ -1,5 +1,5 @@
-A repository for Lanzoor's old profile.
+# core-legacy
 
-> **NOTE**: This repository is now being replaced by the new profile ([https://github.com/Lanzoor/profile-old/](https://github.com/Lanzoor/profile-old/)). Please read [https://lanzoor.github.io/documents/announcements/0004.html](announcement 0004) for more details.
+An archive containing previous works related to `core` and Lanzaforge that are no longer actively maintained.
 
-> Click here for the GitHub Pages link! [https://lanzoor.github.io/profile-old/](https://lanzoor.github.io/profile-old/)
+> Normally I would put this into the `Lanzaforge` organization, but I felt like the project is more related to `core`.
