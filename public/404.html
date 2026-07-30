@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+
+    <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <a href="/">/ Home</a>
+
+        <h1>Oops!</h1>
+
+        <p>
+            We couldn't find a resource located at <code id="path">/404</code>.
+        </p>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const path = document.getElementById('path');
+
+            if (!path) return;
+
+            path.textContent = window.location.pathname;
+        })
+    </script>
+</body>
+
+</html>
